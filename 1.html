@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+</head>
+<body>
+<script>
+    let luachon = prompt('nhập vào 1 nếu đổi từ feet sang meter và 2 nêu đổi ngược lại');
+  if(luachon==1){
+      feet = prompt('nhập vào số feet ');
+      footToMeter(feet);
+  }
+  else if(luachon==2){
+      meter = prompt('nhập vào số meter');
+      meterToFoot(meter);
+  }
+  else (alert('đậu xanh bạn'));
+    function footToMeter(feet) {
+        meter = 0.305 * feet;
+        alert(feet +' feet bằng ' +meter +' meter')
+
+    }
+ function meterToFoot(meter) {
+     feet = 3.279 * meter;
+     alert(meter +' meter bằng ' +feet+ ' feet')
+ } 
+</script>
+</body>
+</html>
